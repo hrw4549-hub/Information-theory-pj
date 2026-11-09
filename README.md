@@ -17,8 +17,9 @@
 
 1. 克隆仓库并在 MATLAB 中将当前目录切换到项目根目录。
 2. 执行 `run_tests` 运行自动化测试。
-3. 执行 `run_image_demo` 生成端到端图像和指标对比。
-4. 执行 `run_channel_demo` 生成卷积码、极化码 BER/FER 曲线。
+3. 执行 `run_source_demo` 展示 Huffman 压缩与无损往返。
+4. 执行 `run_image_demo` 生成端到端图像和指标对比。
+5. 执行 `run_channel_demo` 生成卷积码、极化码 BER/FER 曲线。
 
 所有实验使用固定随机种子，结果写入 `results/`。脚本会自动添加 `src/` 路径。
 
